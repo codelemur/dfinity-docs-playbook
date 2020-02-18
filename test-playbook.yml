@@ -1,0 +1,28 @@
+site:
+    title: Internet Computer 
+    url: https://sdk.dfinity.org
+    #start_page: home.adoc
+content:
+    sources:
+    #- url: ./docs
+      #branches: HEAD  
+    - url: git@github.com:dfinity-lab/docs.git
+      branches: 'master' 
+ui:
+  bundle:
+    #url: ./ic-doc-ui/build/ui-bundle.zip
+    url: ./ui-bundle.zip
+
+    #snapshot: false
+  
+  #supplemental_files: ./supplemental_ui
+
+asciidoc:
+  attributes:
+    proglang: Motoko
+    company-id: DFINITY
+    toc: ~
+    platform: Internet Computer platform
+    IC: Internet Computer
+    sdk-short-name: DFINITY Canister SDK
+    sdk-long-name: DFINITY Canister Software Development Kit (SDK)
