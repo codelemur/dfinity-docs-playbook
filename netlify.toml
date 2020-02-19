@@ -1,0 +1,10 @@
+[build]
+base = ""
+publish = "build/site"
+command = "npm i @antora/cli @antora/site-generator-default && $(npm bin)/antora --fetch antora-playbook.yml"
+
+[[redirects]]
+from = "/"
+to = "/docs/index.html"
+status = 302
+force = true

@@ -11,10 +11,9 @@ content:
 ui:
   bundle:
     #url: ./ic-doc-ui/build/ui-bundle.zip
-    url: ../ui-bundle.zip
+    url: https://github.com/dfinity-lab/antora-sdk/raw/master/build/ui-bundle.zip
+    snapshot: true
 
-    #snapshot: false
-  
   #supplemental_files: ./supplemental_ui
 
 asciidoc:
