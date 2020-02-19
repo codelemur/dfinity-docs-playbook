@@ -7,7 +7,12 @@ content:
     #- url: ./docs
       #branches: HEAD  
     - url: git@github.com:dfinity-lab/docs.git
-      branches: 'master' 
+      branches: 'master'
+    #- url: git@github.com:dfinity-lab/motoko.git
+      #branches: 'master'
+    #- url: git@github.com:dfinity-lab/sdk.git
+      #branches: 'master'
+
 ui:
   bundle:
     #url: ./ic-doc-ui/build/ui-bundle.zip
