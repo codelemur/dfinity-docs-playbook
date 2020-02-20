@@ -1,2 +1,6 @@
-/node_modules/
-/build/
+/node_modules
+/build
+
+# Mac Temporary Files
+.DS_Store
+**/.DS_Store
