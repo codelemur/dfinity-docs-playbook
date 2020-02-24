@@ -21,8 +21,16 @@ from = "/downloads/*"
 to = "https://sdk-ext.dfinity.systems/downloads/:splat"
 status = 200
 
+# update base url to docs
 [[redirects]]
 from = "/"
 to = "/docs/index.html"
+status = 302
+force = true
+
+# update stale url to language guide to new page
+[[redirects]]
+from = "/language-guide/index.html"
+to = "/docs/language-guide/motoko.html"
 status = 302
 force = true
