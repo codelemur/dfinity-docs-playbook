@@ -3,22 +3,22 @@ base = ""
 publish = "build/site"
 command = "npm i @antora/cli @antora/site-generator-default && $(npm bin)/antora --fetch antora-playbook.yml"
 
-# Rewrite to sdk-ext for fetchings artifacts
+# Rewrite to sdk.dfinity.systems for fetchings artifacts
 [[redirects]]
 from = "/install.sh"
-to = "https://sdk-ext.dfinity.systems/install.sh"
+to = "https://sdk.dfinity.systems/install.sh"
 status = 200
 
-# Rewrite to sdk-ext for fetchings artifacts
+# Rewrite to sdk.dfinity.systems for fetchings artifacts
 [[redirects]]
 from = "/manifest.json"
-to = "https://sdk-ext.dfinity.systems/manifest.json"
+to = "https://sdk.dfinity.systems/manifest.json"
 status = 200
 
-# Rewrite to sdk-ext for fetchings artifacts
+# Rewrite to sdk.dfinity.systems for fetchings artifacts
 [[redirects]]
 from = "/downloads/*"
-to = "https://sdk-ext.dfinity.systems/downloads/:splat"
+to = "https://sdk.dfinity.systems/downloads/:splat"
 status = 200
 
 # update base url to docs
