@@ -1,6 +1,6 @@
 site:
     title: Internet Computer 
-    url: https://sdk.dfinity.org
+    url: https://dfinity.org
     #start_page: home.adoc
 content:
     sources:
