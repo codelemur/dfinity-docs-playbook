@@ -7,19 +7,19 @@ command = "npm i @antora/cli @antora/site-generator-default && $(npm bin)/antora
 [[redirects]]
 from = "/install.sh"
 to = "https://download.dfinity.systems/sdk/install.sh"
-status = 301
+status = 302
 
 # Rewrite to download.dfinity.systems for fetchings artifacts
 [[redirects]]
 from = "/manifest.json"
 to = "https://download.dfinity.systems/sdk/manifest.json"
-status = 301
+status = 302
 
 # Rewrite to download.dfinity.systems for fetchings artifacts
 [[redirects]]
 from = "/downloads/*"
 to = "https://download.dfinity.systems/sdk/:splat"
-status = 301
+status = 302
 
 # update base url to docs
 [[redirects]]
