@@ -14,7 +14,7 @@ content:
 
 # Remote repositories and branches
     - url: git@github.com:dfinity/docs.git
-       branches: 'master'
+      branches: 'master'
     #- url: git@github.com:dfinity-lab/motoko.git
       # branches: 'master'
     #- url: git@github.com:dfinity-lab/motoko-base.git
