@@ -4,10 +4,28 @@ site:
     #start_page: home.adoc
 content:
     sources:
-    #- url: ./docs
-      #branches: HEAD  
-    - url: git@github.com:dfinity-lab/docs.git
-      branches: 'master' 
+# Local repositories and branches
+    #- url: ../../DFINITY-SDK-MAIN-REPO/motoko-base
+      # branches: HEAD
+    #- url: ../../DFINITY-SDK-MAIN-REPO/motoko
+      # branches: HEAD
+    #- url: ../docs
+      # branches: LG/create-master-nav
+
+# Remote repositories and branches
+    - url: git@github.com:dfinity/docs.git
+       branches: 'master'
+    #- url: git@github.com:dfinity-lab/motoko.git
+      # branches: 'master'
+    #- url: git@github.com:dfinity-lab/motoko-base.git
+      # branches: 'master'
+    #- url: git@github.com:dfinity-lab/sdk.git
+      # branches: 'master'
+
+# Private repo location
+    #- url: git@github.com:dfinity-lab/docs.git
+      # branches: 'master'
+      
 ui:
   bundle:
     #url: ./ic-doc-ui/build/ui-bundle.zip
