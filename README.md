@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f4aa5b93-ab95-498c-a3a0-afdec8a69ab8/deploy-status)](https://app.netlify.com/sites/eloquent-poitras-af14f0/deploys)
+
 # dfinity-docs-playbook
 [Antora playbook](https://docs.antora.org) for the Dfinity Internet Computer Documentation Site. Antora allows you to pull documentation from multiple repositories, select a UI to display them, and combines everything into a static site. The rules for the generated site are defined in `antora-playbook.yml`.
 
